@@ -1,4 +1,5 @@
-const car = new Object();
-car.name = "Tesla";
-car.color = "Blue";
-console.log(car.name, car.color);
+const car = {
+  name: "Tesla",
+  color: "blue",
+};
+console.log(Object.values(car));
